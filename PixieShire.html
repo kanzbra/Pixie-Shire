@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pixie Shire</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Sigmar+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="content">
+            <div id="logo">
+                <a href="">Pixie Shire </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#slide1" title="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#slide3" title="Next Section">How Pixie Shire Works?</a>
+                    </li>
+                    <li>
+                        <a href="#slide4" title="Next Section">To do list</a>
+                    </li>
+                    <li>
+                        <a href="/payments" title="Next Section">Payments</a>
+                    </li>
+                    <li>
+                        <a href="#slide6" title="Next Section">Issues</a>
+                    </li>
+                    <li>
+                            <a href="SignOut.html">Sign Out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="slide1">
+            <div class = "container" id="boxOne">
+              <div class = "row">
+                    <div class = "col-sm-6">
+        <video id="video" width="600" height="400" controls="controls">
+            <source src="css/images/shire.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div  id="text-container"  data-aos="flip-left" data-aos-delay="300">
+          <h1 id="title">Get rid of your
+          </h1>
+          <h1 id="main-text">
+              ROOMMATE COMPLAINTS
+          </h1>
+          <p id="body-text">
+                Are you fed up with buying grocieries all the time, figuring out whose turn it is to clean, or how much each roomate has to pay for the electricity bill becuase one of you hasn't paid in like four months? We get it, and that's why we're here to help.
+                We can help you organize all your tasks, distrubute them on a weekly basis with reminders, manage all your expenses, plus so much more! For more information please scroll below.</p> 
+      </div>
+    </div>
+</div>
+</div>
+
+   
+
+    <div id="slide3">
+            <div class = "row" id="info" data-aos="flip-left" data-aos-delay="300">
+                <div  class = "col-lg-8 col-md-8 col-sm-12 col-xs-12">
+               <h1 id="intro">Living with roommates can be hard</h1>
+            </div>
+        
+               <div class = "col-lg-8 col-md-8 col-sm-12 col-xs-12" >
+                    <br>
+               <h2 id="advertise">But with Pixie Shire it will be an ease</h2>
+               <br>
+               <h4>Manage all your task, such as groceries and cleaning duties. <br>Notify one another of upcoming events or personal endeavors <br> Avoid financial disagreement by distributing bill payments  </h4>
+            </div>
+
+
+                </div>
+
+
+        <div class = "row" id="circles" data-aos="flip-left" data-aos-delay="300">
+            <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-6" id  ="circleOne"> 
+                <img id=taskOne src="css/images/task.png">          
+                <p>List Task</p>
+            </div>
+            <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-6"  id ="circleTwo">    
+                    <img id="taskTwo" src="css/images/chat.png">
+                    <p id="pTwo"> Manage</p>
+            </div>
+            <div  class = "col-lg-4 col-md-4 col-sm-6 col-xs-6" id ="circleThree">
+                    <img id="taskTwo" src="css/images/money.png">
+                    <p id="pTwo"> Pay Bills</p>
+            </div>
+            <div class = "col-lg-4 col-md-4  col-sm-6 col-xs-6"  id="circleFour">
+                    <img id="taskTwo" src="css/images/house.png">
+                    <p id="pTwo"> Under 1 Roof</p>
+            </div>
+        </div>
+
+        <div>
+            <button class="signUp">Sign Up</button>
+        </div>
+    </div>
+    
+
+
+
+    <div id="slide4">
+
+            <div class="containerPic">
+                    <img class="mySlides" src="css/images/stepOne.png" style="width:90%">
+                    <img class="mySlides" src="css/images/stepTwo.png" style="width:90%">
+                    <img class="mySlides" src="css/images/stepThree.png" style="width:90%">
+                  
+
+                  </div>
+                  
+                  <script>
+                        var slideIndex = 0;
+                        carousel();
+                        
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                              x[i].style.display = "none"; 
+                            }
+                            slideIndex++;
+                            if (slideIndex > x.length) {slideIndex = 1} 
+                            x[slideIndex-1].style.display = "block"; 
+                            setTimeout(carousel, 5000); // Change image every 2 seconds
+                        }
+                  </script>
+                  
+</div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
+            <script src="pixieshire.js" type="text/javascript"></script>
+          
+<script>
+     AOS.init();
+</script>
+
+
+
+          
+</body>
+
+</html>

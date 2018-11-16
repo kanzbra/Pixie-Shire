@@ -1,0 +1,444 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+    background-color: black;
+    }
+
+
+    #header {
+        width: 100%;
+        background-color: black;
+        height: 80px;
+        border-collapse: collapse;
+        position:fixed;
+        margin-top: 0px;
+        font-family: 'Acme', sans-serif;
+      
+        }
+
+    #nav { width: 800px; float: right;  margin-top: 0px; }
+    #logo a {  text-decoration: overline dotted; float: left; font-size: 40px; margin-top: 20px; color: whitesmoke; font-weight: bold; margin-left:80px; }
+    #nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    }
+    #nav li{
+    margin-top: 20px;
+
+    float: left;
+    padding-left: 20px;
+    }
+    #nav li a { color: whitesmoke; opacity:0.7; font-size: 18px; text-decoration: none; font-family: 'Acme', sans-serif;
+         }
+    #nav li a.active { color:black; opacity:1; border-bottom: 2px solid #fff; }
+    #nav li a:hover { color: black; opacity:1; }
+
+    #slide1{
+        background:url('images/backdrop.jpg') 50% 0 no-repeat fixed;
+        height: 750px;
+        padding: 200px 0 260px 0;
+        background-size: cover;
+        font-family: 'Acme', sans-serif;
+
+        }
+
+    .container{
+        margin-top:-90px;
+        height: 300px;
+        padding: 200px 0 260px 0;
+        background-size: cover;
+    
+        margin-left: 40px;
+        width:50%;
+    
+    
+    }
+
+    #video {
+        margin-top: -90px;
+        background-color: black;
+        margin-left: 30px;
+        border-radius :50px;
+ 
+
+    }
+  
+
+
+    #text-container{
+        margin-left: 800px;
+        margin-right: 15px;
+        margin-top: -400px;
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+
+
+    }
+
+    #main-text {
+        margin-top: 15px;
+        font-family: 'Sigmar One', cursive;
+        font-size:60px;
+        color: dodgerblue;
+    }
+
+
+ #body-text{
+    font-family: 'Acme', sans-serif;
+     font-size: 16px;
+     padding-top:10px;
+     color: black;
+     width:500px;
+ }
+  
+
+
+
+ 
+
+    #slide3{
+        background:url('images/new-york-nuit.jpg') no-repeat fixed;
+        min-height: 650px;
+        padding: 200px 0 100px 0;
+        background-size: cover;
+        font-family: 'Acme', sans-serif;
+
+    }
+
+    #info{
+        color:whitesmoke;
+        text-align: center;
+        text-shadow: 3px 3px #1e90ff;
+        margin-left:-30px;
+        margin-top:10px;
+
+    }
+
+    #intro{
+        margin-top:20px;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       background-color: black;
+       text-shadow: 3px 3px black;
+       width:65%;
+       text-align: center;
+       margin-left:150px;
+       border-radius: 50%;
+       height: 70%;
+       margin-top:-30px;
+    }
+
+    #advertise{
+        font-family: 'Sigmar One', cursive;
+    }
+
+    #circles{
+        margin-left: 60%;
+        margin-top:-350px;
+    }
+
+    #circleOne{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:30px;
+        border-radius: 50%;
+        margin-right:40px;
+
+    }
+
+    #taskOne{
+        width:100px;
+        height:100px;
+ 
+
+        margin-top:20px;
+        margin-left:30px;
+    }
+
+    p{
+
+        margin-top:10px;
+        font-size:20px;
+        text-align: center;
+        font-family: 'Sigmar One', cursive;
+        
+    }
+
+    #circleTwo{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:30px;
+        border-radius: 50%;
+
+
+    }
+
+
+
+    #taskTwo{
+        width:100px;
+        height:100px;
+        margin-top:30px;
+        margin-left:30px;
+    }
+
+    #pTwo{
+
+        margin-top:0px;
+        font-size:20px;
+        text-align: center;
+        font-family: 'Sigmar One', cursive;
+    }
+
+
+
+
+
+    #circleThree{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 50%;
+        margin-right:40px;
+
+    }
+
+    #circleFour{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 50%;
+    }
+
+
+
+
+.signUp{
+    margin-left:25%;
+    width:100px;
+    border: #2196f3;
+    border-style: double;
+
+}
+
+.containerPic{
+    padding-top:40px;
+    margin-top:30px;
+    padding-left:120px;
+
+    padding-bottom:30px;
+}
+
+
+
+
+
+
+@media (max-width: 580px) {
+
+    #header {
+    
+        background-color: white;
+        height: 80px;
+        border-collapse: collapse;
+        position:fixed;
+        margin-top: 0px;
+        font-family: 'Acme', sans-serif;
+      
+        }
+
+    #nav { width: 200px; float: right;  margin-top: 0px; }
+    #logo a {  text-decoration: overline dotted; float: left; font-size: 40px; margin-top: 20px; color: #2196f3; font-weight: bold; margin-left:80px; }
+    #nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    }
+    #nav li{
+    margin-top: 20px;
+
+    
+    }
+    #nav li a { color: #2196f3; opacity:0.7; font-size: 18px; text-decoration: none; font-family: 'Acme', sans-serif;
+         }
+    #nav li a.active { color:black; opacity:1; border-bottom: 2px solid #fff; }
+    #nav li a:hover { color: black; opacity:1; }
+
+    #slide1{
+        background:url('images/backdrop.jpg') 100% 0 no-repeat fixed;
+        height: 800px;
+        width:580px;
+        padding: 200px 0 260px 0;
+        background-size: cover;
+        font-family: 'Acme', sans-serif;
+
+        }
+
+    #video {
+        margin-top: -90px;
+        background-color: black;
+        margin-left: 30px;
+        border-radius :50px;
+        width:200px;
+        height:200px;
+ 
+
+    }
+  
+
+
+    #text-container{
+
+
+
+        text-align: center;
+        font-family: 'Permanent Marker', cursive;
+
+
+    }
+
+    #main-text {
+        margin-top: 15px;
+        font-family: 'Sigmar One', cursive;
+        font-size:60px;
+        color: dodgerblue;
+    }
+
+
+ #body-text{
+    font-family: 'Acme', sans-serif;
+     font-size: 16px;
+     padding-top:10px;
+     color: black;
+     width:500px;
+ }
+    #slide2{
+        background-color: #2196f3;
+        color: #fff;
+        height:30px;
+        
+        padding: 110px 0 0px 0;
+        background-size: cover;
+        }
+
+    .text-content{
+        color:white;
+        font-family: 'Permanent Marker', cursive;
+        margin-top:-190px;
+        margin-left:140px;
+
+    }
+
+
+    #info{
+        font-size:50px;
+        margin-top: 100px;
+    }
+
+    .quotes_container{
+        margin-top:40px;
+    
+    }
+
+
+
+ 
+
+    #slide3{
+        background:url('images/new-york-nuit.jpg') no-repeat fixed;
+        min-height: 500px;
+        padding: 200px 0 100px 0;
+        background-size: cover;
+        font-family: 'Acme', sans-serif;
+
+    }
+
+    #circles{
+        margin-left: 60%;
+        margin-top:-40px;
+    }
+
+    #circleOne{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 50%;
+        margin-right:40px;
+
+    }
+
+    #circleTwo{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 50%;
+
+
+    }
+
+    #circleThree{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 50%;
+        margin-right:40px;
+
+    }
+
+    #circleFour{
+        background-color: #2196f3;
+        width:150px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius: 50%;
+    }
+
+
+
+
+
+
+
+
+#slide4{
+    background:url('images/geometric-grey-background_1055-3147.jpg') 50% 0 no-repeat fixed;
+    height: 800px;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+}
+
+#Sign{
+    background:url('https://media.giphy.com/media/l1BgRxgYjftTAy3N6/giphy.gif') 100% no-repeat ;
+
+    height:500px;
+    width:500px;
+    border-radius:50%;
+    margin-left: 450px;
+    margin-top:-10px;
+    margin-bottom:30px;
+
+}
+
+#signout{
+    font-family: 'Acme', sans-serif;
+    color: white;
+    padding-left:350px;
+    padding-top: 20px;
+    font-size:90px;
+}
+}
